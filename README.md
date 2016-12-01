@@ -17,8 +17,12 @@ Stashboard was written by Twilio to provide status information on our phone, SMS
 
 1. https://cloud.google.com/appengine/downloads - select Python
 2. Click on Download and Install (Optionally, you can also download the original App Engine SDK for Python *recommend to download this after you install Cloud SDK, so you can open the SDK from the Google App Engine Launcher* - this will take you to the Cloud SDK Download page - click on the Cloud SDK Installer link
-3. 
+3. Launch the Google Cloud SDK Shell and run the following commands:
 
+gcloud components list
+gcloud components install app-engine-python
+
+## Helpful Links
 
 [local]: http://code.google.com/appengine/docs/python/gettingstarted/devenvironment.html
 [deploy]: http://code.google.com/appengine/docs/python/gettingstarted/uploading.html
